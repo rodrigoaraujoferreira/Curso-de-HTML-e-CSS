@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -147,4 +151,38 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+/* css da home */
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+	clear: left;
+}
+
+.principal p {
+	margin-bottom: 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
