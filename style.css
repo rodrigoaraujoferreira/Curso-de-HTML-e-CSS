@@ -194,9 +194,29 @@ td, th {
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
+	display: inline-block;
 }
 
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+.contend-benefits {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.contend-list {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
 }
