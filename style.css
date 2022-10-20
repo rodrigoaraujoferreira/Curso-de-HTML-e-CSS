@@ -186,3 +186,12 @@ td, th {
 	float: left;
 	margin: 0 20px 20px 0;
 }
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
