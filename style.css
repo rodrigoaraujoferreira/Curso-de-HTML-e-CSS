@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #088C19;
 }
 
 .produtos li:hover h2 {
@@ -94,17 +94,15 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
+main {}
 
 form {
 	margin: 40px 0;
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -121,7 +119,7 @@ form label, form legend {
 }
 
 .enviar {
-	width:40%;
+	width: 40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -148,7 +146,8 @@ thead {
 	font-weight: bold;
 }
 
-td, th {
+td,
+th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
@@ -156,6 +155,13 @@ td, th {
 /* css da home */
 .banner {
 	width: 100%;
+	margin-bottom: 2em;
+}
+
+.principal {
+	width: 940px;
+	margin: 0 auto;
+	background-color: #fefefefe;
 }
 
 .titulo-principal {
@@ -188,13 +194,24 @@ td, th {
 }
 
 .mapa {
-	padding: 3em 0;
+	padding: 3em;
+	background: linear-gradient(#fefefe, #888888);
+}
+
+.contender-mapa {
+	text-align: center;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 	display: inline-block;
+}
+
+.beneficios {
+	background-color: #888;
 }
 
 .video {
