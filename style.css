@@ -156,6 +156,12 @@ th {
 .banner {
 	width: 100%;
 	margin-bottom: 2em;
+	transition: 400ms;
+}
+
+.banner:hover {
+	opacity: 0.8;
+	
 }
 
 .principal {
@@ -244,6 +250,7 @@ th {
 	font-weight: bold;
 }
 
-.shadow-map {
-	box-shadow: 5px 5px 15px #000;
+.shadow-map:hover {
+	box-shadow: 5px 5px 20px #000;
+	transition: 400ms;
 }
