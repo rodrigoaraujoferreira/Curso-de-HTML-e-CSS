@@ -7,6 +7,14 @@ header {
 	padding: 20px 0;
 }
 
+.main-contato {
+	margin: 0 10%;
+}
+
+.main-contato form {
+	margin: 2em auto;
+}
+
 .caixa {
 	position: relative;
 	width: 940px;
@@ -36,6 +44,7 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
+
 
 .produtos {
 	width: 940px;
@@ -94,7 +103,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {}
 
 form {
 	margin: 40px 0;
