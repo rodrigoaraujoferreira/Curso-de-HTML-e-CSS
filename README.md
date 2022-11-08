@@ -1,7 +1,7 @@
 <h1> Curso de Front-End - Alura </h1>
 
 <p>
-  Projeto desenvolvido durante o decorrer do meu primeiro curso de HTML5 e CSS3, a pagina e simples e compriu bem seu papel durante o curso conhecer e treinar HTML e CSS.
+  Projeto desenvolvido desenvolvido durante o decorrer do meu primeiro curso de HTML5 e CSS3, a pagina e simples e compriu bem seu papel durante o curso conhecer e treinar HTML e CSS.
 </p>
 
 <br>
