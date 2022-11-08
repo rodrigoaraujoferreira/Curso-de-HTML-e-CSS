@@ -265,5 +265,30 @@ th {
 
 /* RESPONSIVIDADE */
 @media screen and (max-width: 480px) {
+
+	header {
+		width:auto;
+	}
 	
+	.caixa, .principal, .contend-benefits, .contender-mapa, .video {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+	
+    .contend-list, .imagem-beneficios {
+        width: 100%;
+    }
+
+	.video {
+		width: auto;
+	}
+
 }
