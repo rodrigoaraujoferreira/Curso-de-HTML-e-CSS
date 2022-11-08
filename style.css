@@ -47,7 +47,8 @@ nav a:hover {
 
 
 .produtos {
-	width: 940px;
+	/*
+	width: 940px; */
 	margin: 0 auto;
 	padding: 50px 0;
 }
@@ -266,10 +267,12 @@ th {
 /* RESPONSIVIDADE */
 @media screen and (max-width: 480px) {
 
-	header {
+	/* home */
+
+	body {
 		width:auto;
 	}
-	
+
 	.caixa, .principal, .contend-benefits, .contender-mapa, .video {
         width: 100%;
     }
@@ -288,7 +291,25 @@ th {
     }
 
 	.video {
-		width: auto;
+		width: 90%;
+		padding: 0;
+	}
+
+	/* pag. produtos */
+	header {
+		width:auto;
+	}
+
+	.produtos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+	}
+
+	.produtos li {
+		width: 80%;
+		margin: 0 auto;
 	}
 
 }
