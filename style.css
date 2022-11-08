@@ -262,3 +262,8 @@ th {
 	box-shadow: 5px 5px 20px #000;
 	transition: 400ms;
 }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 480px) {
+	
+}
